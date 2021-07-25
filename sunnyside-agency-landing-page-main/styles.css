@@ -1,0 +1,581 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* *****************************HEADER SECTION******************************** */
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #3ebfff;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    /* display: flex; */
+}
+
+.header h1 , h3 , h4 {
+    display: inline-block;
+}
+
+.header-brand {
+    margin-right: 650px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Fraunces;
+    font-weight: 900;
+}
+
+.header-item {
+    text-decoration: none;
+    margin: 0 15px 0;
+    color: white;
+}
+
+.header-button {
+    width: 80px;
+    height: 35px;
+    border: hidden;
+    border-radius: 35px;
+    background-color: white;
+    color: hsl(167, 40%, 24%);
+    font-size: 10px;
+    font-family: Fraunces;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+}
+
+.header-button:hover {
+    color: white;
+    background-color: rgb(110, 206, 255);
+}
+
+.bars, .menu {
+    display: none;
+}
+
+/* ************************************FirstSection*****************************/
+
+.firstSection {
+    width: auto;
+    height: 600px;
+    overflow: hidden;
+    background-image: url(images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.firstSection h1 {
+    text-align: center;
+    color: white;
+    font-family: Fraunces;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+/* **************************SecondSection************************ */
+
+.secondSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+}
+
+.secondSection-text{
+    width: 50%;
+    height: 50%;
+}
+
+.secondSection-text h2, p, .learnLink {
+    text-align: left;
+    margin-left: 150px;
+}
+
+.secondSection-text h2 {
+    margin-top: 200px;
+    font-family: Fraunces;
+    font-weight: 900;
+    color: rgb(35, 49, 62);
+    font-size: 30px;
+}
+
+.secondSection-text p {
+    color: rgb(138, 139, 144);
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.learnLink {
+    color:  rgb(35, 49, 62);
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.yellow-link {
+    border-bottom: 5px solid rgba(250, 212, 0, .4);
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+}
+
+.red-link {
+    border-bottom: 5px solid rgba(254, 120, 103, 0.4) ;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+}
+
+.yellow-link:hover {
+    border-bottom: 5px solid rgba(250, 212, 0, 1);
+    border-radius: 3px;
+}
+
+.red-link:hover {
+    border-bottom: 5px solid rgba(254, 120, 103, 1) ;
+    border-radius: 3px;
+}
+
+
+
+.secondSection-image{
+    width: 50%;
+    height: 600px;
+    background-image: url(images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* ****************************thirdSection************************* */
+
+.thirdSection { 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+}
+
+.thirdSection-text {
+    height: 50%;
+    width: 50%;
+    margin-left: -35px;
+}
+
+.thirdSection-text h2, p, .learnLink {
+    text-align: left;
+    margin-left: 150px;
+}
+
+.thirdSection-text h2 {
+    margin-top: 200px;
+    font-family: Fraunces;
+    font-weight: 900;
+    color: rgb(35, 49, 62);
+    font-size: 30px;
+}
+
+.thirdSection-text p {
+    color: rgb(138, 139, 144);
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+
+.thirdSection-image {
+    width: 50%;
+    height: 600px;
+    background-image: url(images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* **************************fourthSection*********************** */
+
+.fourthSection {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 100%;
+}
+
+.fourthSection-imageOne , .forthSection-imageTwo {
+    width: 80%;
+    height: 600px;
+}
+
+.fourthSection-imageOne {
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.fourthSection-imageTwo {
+    background-image: url(images/desktop/image-photography.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.fourthSection-imageOne  h3 {
+    margin-top: 400px;
+    color: hsl(167, 40%, 24%);
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 25px;
+
+
+}
+
+.fourthSection-imageTwo  h3 {
+    margin-top: 400px;
+    color: hsl(198, 62%, 26%);
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.fourthSection-imageOne p {
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+    position: relative;
+    right: 60px;
+    line-height: 1.5;
+    font-size: 17px;
+    font-family: Fraunces;
+    font-weight: 600;
+ 
+}
+
+.fourthSection-imageTwo p {
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+    line-height: 1.5;
+    font-size: 17px;
+    position: relative;
+    right: 60px;
+    font-family: Fraunces;
+    font-weight: 600;
+}
+
+
+/* ********************************TESTIMONIALS********************************* */
+
+.testHeader  {
+    text-align: center;
+    margin-top: 150px;
+    padding-left: 75px;
+    letter-spacing: 3px;
+    color: hsl(210, 4%, 67%);
+    font-family: Fraunces;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+
+.testimonials p {
+    color: rgb(138, 139, 144);
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.testimonials h5 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.testimonials h6 {
+    color: rgb(138, 139, 144) ;
+    font-size: 15px;
+}
+
+.cardOne, .cardTwo, .cardThree {
+    width: 25%;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.testImage {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+
+/* ****************************************PICTURES****************************** */
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 490px;
+}
+
+.picOne, .picTwo, .picThree, .picFour {
+    width: 25%;
+    height: 523px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picOne {
+    background-image: url(images/desktop/image-gallery-milkbottles.jpg);
+}
+
+.picTwo {
+    background-image: url(images/desktop/image-gallery-orange.jpg);
+}
+
+.picThree {
+    background-image: url(images/desktop/image-gallery-cone.jpg);
+}
+
+.picFour {
+    background-image: url(images/desktop/image-gallery-sugarcubes.jpg);
+}
+
+
+/* *******************************FOOTER*********************************** */
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(144, 212, 197);
+    text-align: center;
+}
+
+.footer h1 {
+    font-family: Fraunces;
+    font-weight: 900;
+    color: hsl(168, 34%, 41%);
+    font-size: 45px;
+    padding-top: 80px;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer li {
+    display: inline;
+}
+
+.footer a {
+    text-decoration: none;
+    color: hsl(168, 34%, 41%);
+    margin: 35px;
+    font-size: 25px;
+}
+
+.svg {
+    padding-top: 70px;
+    padding-right: 55px;
+}
+
+.svg a {
+    text-decoration: none;
+    /* color: hsl(168, 34%, 41%); */
+    margin: 20px;
+    font-size: 25px;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.svg a:hover {
+    color: white;
+}
+
+
+@media (min-width: 900px) and (max-width: 1300px) {
+    .header-brand {
+        margin-right: 300px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .header-brand {
+        margin-right: 100px;
+    }
+}
+
+@media  (max-width: 700px) {
+
+    .header-item {
+       display: none;
+    }
+
+    .bars {
+        display: inline-flex;
+        position: relative;
+        left: 450px;
+        bottom: 70px;
+        text-decoration: none;
+        
+    }
+
+    .menu {
+        display: inline-flex;
+        visibility: hidden;
+        flex-direction: column;
+        width: 85%;
+        height: 400px;
+        background-color: white;
+        margin-left: 37px;
+        border-radius: 5px;
+        opacity: 1;
+        align-items: center;
+        justify-content: center;
+    }
+ 
+    .menu-item {
+        color: rgb(179, 178, 186);
+        font-size: 19px;
+        font-family: Barlow;
+        font-weight: 600;
+    }
+
+    .menu-item-btn {
+        background-color: rgba(250, 212, 0, 1);
+        border-radius: 35px;
+        width: 100px;
+        height: 50px;
+        border: hidden;
+        font-family: Barlow;
+        font-weight: 600;
+        cursor: pointer;
+
+    }
+
+    .firstSection h1 {
+        font-size: 60px;
+        visibility: visible;
+    }
+
+    /* *****************************************SECOND SECTION**************************** */
+
+    .secondSection {
+        flex-direction: column;
+        height: 1100px;
+    }
+
+    .secondSection-text, .secondSection-image {
+        width: 100%;
+        height: 50%;
+    }
+
+   
+    .secondSection-text {
+        margin-left: -100px;
+        margin-top: -150px;
+    }
+
+    /* ************************************THIRD SECTION************************************ */
+
+    .thirdSection{
+        flex-direction: column;
+        height: 1100px;
+    }
+
+    .thirdSection-image, .thirdSection-text {
+        width: 100%;
+        height: 50%;
+        margin-top: -150px;
+
+    }
+
+    .thirdSection-text {
+        margin-left: -100px;
+    }
+
+    /* **************************************FOuRTH SECTION*********************************** */
+
+    .fourthSection {
+        flex-direction: column;
+        height: 1100px;
+    }
+
+    .fourthSection-imageOne, .fourthSection-imageTwo {
+        width: 100%;
+        height: 50%;
+    }
+
+    .fourthSection-imageOne {
+        margin-top: -300px;
+    }
+
+    .fourthSection-imageOne h3 {
+        margin-top: 300px;
+    }
+
+    .fourthSection-imageTwo h3 {
+        margin-top: 300px;
+    }
+
+    /* *************************************TESTIMONIALS***************************************** */
+
+    .testHeader {
+        margin-top: -240px;
+        letter-spacing: 10px;
+        padding-left: 0;
+    }
+
+    .testimonials {
+        flex-direction: column;
+        height: 1300px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardOne, .cardTwo, .cardThree {
+        width: 70%;
+        height: 33% ;
+        margin-top: 30px;
+        margin-left: 0;
+        
+    }
+
+    .testImage {
+        margin-top: 80px;
+    }
+
+    /* **************************************PICTURES************************************* */
+
+    .pictures {
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+
+    .picOne, .picTwo, .picThree, .picFour {
+        width: 50%;
+        height: 55%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
