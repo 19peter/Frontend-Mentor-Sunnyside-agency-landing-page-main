@@ -4,6 +4,12 @@ body{
     margin: 0;
 }
 
+.attribution {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(144, 212, 197);
+}
+
 /* *****************************HEADER SECTION******************************** */
 
 .header {
